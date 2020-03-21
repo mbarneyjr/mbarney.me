@@ -3,7 +3,6 @@ frontend:
   phases:
     build:
       commands:
-        - cd frontend
         - npm ci
         - npm run build
   artifacts:
